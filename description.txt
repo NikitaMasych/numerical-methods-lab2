@@ -1,0 +1,17 @@
+It is necessary to implement three methods of solving a system of linear algebraic equations:
+1. Gauss method.
+i. You need to implement not in the form of "naive
+method of excluding variables", and in matrix form (LU decomposition),
+necessarily with the selection of the main element.
+2. The sweep method for a tridiagonal matrix
+3. Jacobi method.
+4. Seidel's method.
+
+The program should allow the user to explore the behavior of methods on
+matrices of two types - a random matrix and a Hilbert matrix
+• At the same time, it is necessary to be able to generate the corresponding arbitrary matrix
+dimensions (you can consider the maximum size 1000x1000)
+• When generating a random matrix for methods 2, 3 and 4, it must be modified so that
+the condition of convergence is fulfilled. The Hilbert matrix does not need to be modified -
+we do not test the running method on it, the Jacobi method probably will not match. Method
+Seidel - maybe it will coincide.
